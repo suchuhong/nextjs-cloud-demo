@@ -31,7 +31,13 @@ jobs:
     - name: Show Node.js path
       run: which node
 
+    - name: Show npm path
+      run: which npm
+
+    - name: npm config get registry
+      run: npm config get registry
+
     - name: Install dependencies using npm ci
       run: npm ci
-      
+
     - run: npm run build --if-present

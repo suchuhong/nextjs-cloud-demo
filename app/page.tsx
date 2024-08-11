@@ -15,7 +15,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' sususu '}
+            By{' sususu test'}
           </a>
         </div>
       </div>

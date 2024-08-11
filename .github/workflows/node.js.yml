@@ -41,3 +41,9 @@ jobs:
       run: npm ci
 
     - run: npm run build --if-present
+
+    - name: 修改目录
+      run: cd /home/susu/actions-runner/_work/nextjs-cloud-demo/nextjs-cloud-demo
+
+    - name: pm2 list 
+      run: pm2 list
